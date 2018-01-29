@@ -4,10 +4,10 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-final class ___FILEBASENAMEASIDENTIFIER___DataSource: NSObject, UITableViewDelegate, UITableViewDataSource {
-  private let viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel
+final class ___VARIABLE_sceneName___DataSource: NSObject, UITableViewDelegate, UITableViewDataSource {
+  private let viewModel: ___VARIABLE_sceneName___ViewModel
   
-  init(with tableView: UITableView, viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel) {
+  init(with tableView: UITableView, viewModel: ___VARIABLE_sceneName___ViewModel) {
     self.viewModel = viewModel
     super.init()
     tableView.delegate   = self
